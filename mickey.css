@@ -1,0 +1,163 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	position: relative;
+	left: 280px;
+}
+
+/* try using a media query, so minimizing the screen won't block the ocjects */
+
+.head {
+	height: 300px;
+	width: 300px;
+	background-color: #000000;
+	border-radius: 50%;
+	position: absolute;
+	right: 560px;
+	top: 100px;
+	box-shadow: 10px 10px  10px gray;
+}
+
+/* Add box shadow to ears */
+
+.left-ear {
+	height: 140px;
+	width: 180px;
+	background-color: #000000;
+	border-radius: 50%;
+	position: absolute;
+	right: 775px;
+	top: 35px;
+	transform: rotate(-38deg);
+}
+
+.right-ear {
+	height: 140px;
+	width: 180px;
+	background-color: #000000;
+	border-radius: 50%;
+	position: absolute;
+	right: 470px;
+	top: 32px;
+	transform: rotate(40deg);
+
+
+}
+
+
+.right-eye {
+	width: 140px;
+	height: 180px;
+	background-color: white;
+	position: absolute;
+	right: 595px;
+	top: 120px;
+	border-radius: 75%;
+}
+
+.left-eye {
+	width: 140px;
+	height: 180px;
+	background-color: white;
+	position: absolute;
+	right: 685px;
+	top: 120px;
+	border-radius: 75%;
+}
+
+.middle {
+	width: 180px;
+	height: 155px;
+	border-radius: 100%;
+	background-color: white;
+	position: absolute;
+	right: 620px;
+	top: 240px;
+}
+
+.left-cheek {
+
+	width: 80px;
+	height: 150px;
+	border-radius: 100%;
+	background-color: white;
+	position: absolute;
+	right: 755px;
+	top: 235px;
+	transform: rotate(-35deg);
+}
+
+.right-cheek {
+	width: 80px;
+	height: 150px;
+	border-radius: 100%;
+	background-color: white;
+	position: absolute;
+	right: 585px;
+	top: 235px;
+	transform: rotate(35deg);
+}
+
+.right-pupil {
+	width: 32px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #000000;
+	position: absolute;
+	top: 170px;
+	right: 671px;
+}
+
+.left-pupil {
+	width: 32px;
+	height: 80px;
+	border-radius: 100%;
+	background-color: #000000;
+	position: absolute;
+	top: 170px;
+	right: 717px;
+}
+
+.nose-bump {
+	width: 120px;
+	height: 140px;
+	border: solid 2px #000;
+	border-color: #000 transparent transparent transparent;
+	border-radius: 100%/75px 75px;
+	position: absolute;
+	top: 245px;
+	right: 648px;
+}
+
+.nose {
+	width: 70px;
+	height: 40px;
+	background-color: #000000;
+	position: absolute;
+	right: 675px;
+	top: 255px;
+	border-radius: 100%;
+}
+
+.upper-lip {
+	width: 300px;
+	height: 140px;
+	border: solid 2px #000;
+	border-color: #000 transparent transparent transparent;
+	border-radius: 100%/200px 200px 0 0;
+	position: absolute;
+	top: 190px;
+	right: 560px;
+	transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
